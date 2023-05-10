@@ -1,0 +1,9 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="model" default="$(env r2d2)" doc="model type [r2d2]"/>
+  
+  <!-- Gmapping -->
+  <node pkg="gmapping" type="slam_gmapping" name="turtlebot3_slam_gmapping" output="screen">
+    
+  </node>
+</launch>
